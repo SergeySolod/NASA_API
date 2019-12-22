@@ -9,6 +9,9 @@ export const Home = () => {
                     позволяет получить самую актуальную информацию, связанную с комической тематикой. Основная
                     технология, на которой напиано приложение - React/Redux.
                 </p>
+                <p className="lead">
+                    GitHub: https://github.com/SergeySolod/NASA_API
+                </p>
             </div>
         </div>
     )

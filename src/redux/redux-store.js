@@ -4,10 +4,12 @@ import { reducer as formReducer } from 'redux-form'
 
 import planetsReducer from './planets-reducer'
 import downloadReducer from "./download-reducer";
+import apodReducer from "./apod-reducer";
 
 let reducers = combineReducers({
     planets: planetsReducer,
     download: downloadReducer,
+    apod: apodReducer,
     form: formReducer
 })
 

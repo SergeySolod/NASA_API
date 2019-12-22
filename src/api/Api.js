@@ -15,3 +15,11 @@ export const SearchContentApi = async (spaceBody, currentPage = 1) => {
     })
     return response.data;
 }
+
+export const SearchApod = async () => {
+    let response = await axios({
+        url: `https://api.nasa.gov/planetary/apod?api_key=9BsAaSnySPLAh301Ru23Rd5ZbwRac6hTvLDwz6tW`,
+        method: "get",
+    })
+    return response.data;
+}

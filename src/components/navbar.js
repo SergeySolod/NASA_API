@@ -12,7 +12,10 @@ export const Navbar = () => {
                     <NavLink className="nav-link" to="/planets" exact>Планеты</NavLink>
                 </li>
                 <li className="nav-item active">
-                    <NavLink className="nav-link" to="/search" exact>Поиск</NavLink>
+                <NavLink className="nav-link" to="/search" exact>Поиск</NavLink>
+            </li>
+                <li className="nav-item active">
+                    <NavLink className="nav-link" to="/apod" exact>Картина дня</NavLink>
                 </li>
             </ul>
         </nav>
